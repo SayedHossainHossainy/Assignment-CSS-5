@@ -1,0 +1,126 @@
+#header{
+   height: 200px;
+   background-color: teal;
+   text-align: center;
+   padding-top: 10px;
+}
+#header ul li{
+   display: inline;
+   padding: 0 10 px;
+}
+ul{
+   margin-left: -10px;
+}
+#header ul li a{
+   text-decoration: none;
+   color: blue;
+}
+.logo{
+   float: left;
+   height: 200px; width: 200px;
+   transition: 1s ease;
+}
+.logo:hover{
+   transform: scale(1.5);
+}
+.Button{
+   float: right;
+   margin-top: -10px;
+   
+}
+.main{
+   background-image: url("472017180603.jpg");
+   display:inline-block ;
+   text-align: center;
+}
+#maintitle{
+   color: blue;
+}
+/*.footer{
+   height: 100px;
+   background-color: teal;
+   text-align: right;
+   padding-left: 10px;
+}
+.link{
+   float: left;
+   text-decoration: none;
+   color:blue;
+   margin: 10px;
+   padding-top: 5px;
+}
+i{
+   font-size: 20px;
+   color: white;
+   padding-top: 10px;
+}
+.font{
+   margin-right: 10px;
+}
+span{
+   float: right;
+}*/
+.footer{
+   clear: both;
+   background-color: teal;
+   min-height: 40px;
+}
+.footer ul li{
+   display: inline;
+   padding-left: 15px;
+}
+.footer ul li a{
+   text-align: none;
+   color: white;
+   text-decoration: none;
+  
+}
+footer ul{
+   padding-top: 10px;
+   padding-left: 50px;
+}
+.Iconsf{
+   color: blue;
+}
+.Iconst{
+   color: deepskyblue;
+}
+.Iconsi{
+   color: white;
+   padding-right: 15px;
+}
+.number{
+   color: white;
+   padding-right: 15px;
+}
+p{
+   font-size: large;
+}
+.menu li :hover {
+   color: brown !important;
+}
+.transition{
+   font-size: x-large !important;
+   transition: transform 0.3s ease;
+}
+.transition:hover{
+   transform: scale(1.5);
+}
+#tbl{
+   width: 40%;
+   margin: auto;
+   font-size: large;
+   border: 2px solid black;
+   display: inline;
+}
+#tbl th, #tbl td{
+   border: 1px solid black;
+   
+}
+#tbl{
+   background-color: tan;
+}
+#tbl tbody tr : :nth-child(even){
+   
+   background-color: white:
+}
